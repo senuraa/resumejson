@@ -3,44 +3,52 @@
         "name": "Senura Seneviratne",
         "email": "senuraa@msn.com",
         "address": "321/3, Kalapaluwawa, Rajagiriya, Sri Lanka",
-        "mobile":"+94 77 617 0935",
-        "website": "http://senuraa.com"
+        "mobile": "+94 77 617 0935",
+        "website": "http://senuraa.com",
+        "social": [{
+            "network": "github",
+            "username": "senuraa"
+        }, {
+            "network": "twitter",
+            "username": "senuraa"
+        }]
     },
-    "social": [{
-        "network": "github",
-        "username": "senuraa"
-    }, {
-        "network": "twitter",
-        "username": "senuraa"
-    }]
-}, {
+
     "education": {
-        "instituition": "Swinburne University of Technology",
+        "institution": "Swinburne University of Technology",
         "course": "Bachelor of Engineering (Mechanical)(Hons)",
         "startyear": "2010",
         "endyear": "2016"
-    }
-}, {
+    },
     "work": [{
-            "company": "Swinburne University of Technology Sarawak Campus",
-            "position": "websmaster",
-            "startyear": "2015",
-            "endyear": "2016",
-            "summary":"Maintaining the website of the Faculty of Engineering, Computing and Science.Updating the website according to the university design guideline.Updating content on the website."
-        },
-        {
-            "company": "Independent front end developer",
-            "position": "front end developer",
-            "startyear": "2014",
-            "endyear": "2015",
-            "summary":"Developed websites for hotels, start-up projects and other business ventures using HTML5, CSS, JavaScript and PHP. In addition, used WordPress as content management system."
-        },
-        {
-            "company": "Student Activity Center - Swinburne",
-            "position": "Assistant Manager",
-            "startyear": "2013",
-            "endyear": "2014",
-            "summary":"Responsible for weekly SAC (Student Activity Centre) income collection and record.Maintenance of the SAC."
-        }
-    ]
+        "company": "Swinburne University of Technology Sarawak Campus",
+        "position": "websmaster",
+        "startyear": "2015",
+        "endyear": "2016",
+        "summary": "Maintaining the website of the Faculty of Engineering, Computing and Science.Updating the website according to the university design guideline.Updating content on the website."
+    }, {
+        "company": "Independent front end developer",
+        "position": "front end developer",
+        "startyear": "2014",
+        "endyear": "2015",
+        "summary": "Developed websites for hotels, start-up projects and other business ventures using HTML5, CSS, JavaScript and PHP. In addition, used WordPress as content management system."
+    }, {
+        "company": "Student Activity Center - Swinburne",
+        "position": "Assistant Manager",
+        "startyear": "2013",
+        "endyear": "2014",
+        "summary": "Responsible for weekly SAC (Student Activity Centre) income collection and record.Maintenance of the SAC."
+    }],
+    "skills":["HTML","CSS","JavaScript","jQuery","PHP","java"],
+    "extra":{
+        "institution":"Swinburne Sarawak Student Council",
+        "position":"Head of ICT",
+        "year":"2013",
+        "summary":"Responsible for managing the technical side for events conducted through the year. Managing the council website. Conducted a computer donation project for a rural area in Sarawak, Malaysia"
+    },
+    "awards":{
+        "name":"Pro-vice chancellor award",
+        "for":"Swinburne Sarawak Leadership and Community Service Award",
+        "year":"2013"
+    }
 }
