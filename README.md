@@ -1,6 +1,4 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Resume/CV with JSON}
+Resume/CV with JSON}
 
 A resume built using JSON and HTML. 
 
@@ -20,7 +18,3 @@ js - JSON file for the resume and the main JS file
 
 Senura Seneviratne (http://senuraa.com)
 
-
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
