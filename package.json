@@ -1,0 +1,11 @@
+{
+  "name": "Resume-json",
+  "version": "0.0.1",
+  "description": "Resume using JSON",
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-contrib-less": "~1.4.0",
+    "grunt-contrib-cssmin": "latest"
+  }
+}

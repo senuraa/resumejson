@@ -1,0 +1,125 @@
+@import "skeleton.less";
+.container{
+    padding:0 2rem !important;
+    background:#fff;
+}
+
+body{
+    background:#f1f1f1;
+}
+@media(max-width:768px){
+    .container{
+        padding:0rem !important;
+    }
+    body{
+        background:#fff !important;
+    }
+}
+/*Common classes*/
+
+.border-bottom {
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.border-right {
+    border-right: 1px solid #bfbfbf;
+}
+.section-padding{
+    padding:2rem 0;
+}
+
+h5 {
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.right--pane p {
+    margin-bottom: 0;
+}
+
+.right--pane .title--right {
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+/*Header*/
+
+.header {
+    text-align: center;
+    padding-top: 2rem;
+    .border-bottom;
+    h1 {
+        text-transform: uppercase;
+        letter-spacing: 0.25em;
+        font-weight: 700;
+        margin-bottom: 0.1rem;
+        font-size: 4rem;
+    }
+    .address p {
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.25rem;
+        margin-bottom: 0.1rem;
+    }
+    ul {
+        list-style: none;
+        li {
+            display: inline-block;
+            a {
+                padding: 0 1rem;
+                color: #000;
+                border-right: 1px solid #000;
+                span {
+                    font-weight: 700;
+                    padding-right: 0.7rem;
+                }
+            }
+            a:hover {
+                color: #000;
+            }
+        }
+        li:last-child a {
+            border-right: none;
+        }
+    }
+}
+
+
+
+/*Education*/
+
+.education {
+    .section-padding;
+    .border-bottom;
+}
+
+.left--pane {
+    padding-right: 4%;
+    .border-right;
+}
+
+.right--pane {
+    padding-left: 4%;
+    margin-left: 0;
+}
+@media(max-width:550px){
+    .left--pane{
+        padding-right:0;
+        border-right:none;
+    }
+    .right--pane{
+        padding-left:0;
+    }
+}
+/*Experience*/
+.experience , .skills, .extra-c, .awards{
+    .section-padding;
+    .border-bottom;
+}
