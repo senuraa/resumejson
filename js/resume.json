@@ -14,12 +14,19 @@
         }]
     },
 
-    "education": {
+    "education": [{
         "institution": "Swinburne University of Technology",
         "course": "Bachelor of Engineering (Mechanical)(Hons)",
         "startyear": "2010",
-        "endyear": "2016"
-    },
+        "endyear": "2016",
+        "summary":"Thesis: Finite Element Analysis using SOLIDWORKS modelling tools and ANSYS. Experience in 3D printing with RepRap Ormerod"
+    },{
+      "institution": "Test Institue",
+        "course": "Test Course",
+        "startyear": "2010",
+        "endyear": "2016",
+        "summary":"Thesis: TEST TEST TEst"
+    }],
     "work": [{
         "company": "Swinburne University of Technology Sarawak Campus",
         "position": "websmaster",
