@@ -1,4 +1,4 @@
-Resume/CV with JSON}
+##Resume/CV with JSON
 
 A resume built using JSON and HTML. 
 
